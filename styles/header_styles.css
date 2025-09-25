@@ -1,0 +1,20 @@
+header {
+  background-color: lightblue;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 100%;
+  grid-template-areas: "logo search_box sign_up";
+}
+.logo {
+  background-color: gray;
+  grid-area: logo;
+}
+.search_box {
+  background-color: blue;
+  grid-area: search_box;
+}
+.sign_up {
+    background-color: purple;
+    grid-area: sign_up;
+}

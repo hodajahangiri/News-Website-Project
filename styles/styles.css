@@ -15,10 +15,6 @@ body{
     "section section section"
     "footer footer footer";
 }
-header{
-    background-color: lightblue;
-    grid-area: header;
-}
 nav{
     background-color: lightcoral;
     grid-area: nav;
