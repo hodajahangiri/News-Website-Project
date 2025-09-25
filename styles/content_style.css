@@ -74,11 +74,17 @@ article {
   border-radius: 10px;
 }
 
-
 aside {
   background-color: lightgray;
   grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
+
+
+
 section {
   background-color: lightpink;
   grid-area: section;
