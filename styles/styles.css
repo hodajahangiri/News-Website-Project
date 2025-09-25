@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(210, 208, 208);
+    background-color: rgb(83, 83, 83);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 40px 40px auto auto auto 4vh;
@@ -17,18 +17,7 @@ body{
     "footer footer footer";
 }
 
-article{
-    background-color: rgb(147, 78, 78);
-    grid-area: article;
-}
-aside{
-    background-color: lightgray;
-    grid-area: aside;
-}
-section{
-    background-color: lightpink;
-    grid-area: section;
-}
+
 footer{
     background-color: rgb(242, 242, 135);
     grid-area: footer;
