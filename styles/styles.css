@@ -1,3 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
-    border:3px solid red;
+    background-color: rgb(249, 178, 178);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 40px 40px auto auto auto 4vh;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "article article aside"
+    "section section section"
+    "footer footer footer";
+}
+header{
+    background-color: lightblue;
+    grid-area: header;
+}
+nav{
+    background-color: lightcoral;
+    grid-area: nav;
+}
+main{
+    background-color: lightgreen;
+    grid-area: main;
+}
+article{
+    background-color: rgb(147, 78, 78);
+    grid-area: article;
+}
+aside{
+    background-color: lightgray;
+    grid-area: aside;
+}
+section{
+    background-color: lightpink;
+    grid-area: section;
+}
+footer{
+    background-color: rgb(242, 242, 135);
+    grid-area: footer;
 }
