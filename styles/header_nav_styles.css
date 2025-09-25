@@ -1,5 +1,5 @@
 header {
-  background-color: lightblue;
+  background-color: rgb(138, 180, 248);
   grid-area: header;
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
@@ -43,7 +43,7 @@ nav {
   color:gray;
 }
 .nav_item:hover{
-  color:black;
+  color:rgb(138, 180, 248);
 }
 a{
   color:black;

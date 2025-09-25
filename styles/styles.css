@@ -17,8 +17,20 @@ body{
     "footer footer footer";
 }
 
-
 footer{
-    background-color: rgb(242, 242, 135);
     grid-area: footer;
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    color: rgb(138, 180, 248);;
+}
+.news_page_button{
+  padding:10px;
+  margin:10px;
+  background-color: rgb(138, 180, 248);
+  border-radius: 80px;
+  border: 2px rgb(138, 180, 248) solid;
+  min-width: 50px;
+
 }
