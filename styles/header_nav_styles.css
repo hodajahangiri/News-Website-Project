@@ -1,9 +1,4 @@
-@media (max-width: 500px) {
-  header {
-  display: flex;
-  flex-wrap: wrap;
-}
-}
+
 header {
   background-color: rgb(138, 180, 248);
   grid-area: header;
@@ -59,4 +54,11 @@ a{
 }
 a:hover{
   text-decoration:underline;
+}
+
+@media (max-width: 500px) {
+  header {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
